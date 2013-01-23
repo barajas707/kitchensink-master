@@ -1,0 +1,50 @@
+{
+	"BundleType": "Application",
+	"BundleIdentifier": "kitchensink",
+	"BundleVersion": "0.1b",
+	"AcceptedLinkTypes":[
+		"album",
+		"artist",
+		"track",
+		"playlist",
+		"user"
+	],
+	"AppIcon": {
+		"18x18": "icon.png"
+	},
+	"AppName": {
+		"en": "Kitchen Sink"
+	},
+	"AppDescription": {
+		"en": "Spotify Kitchen Sink is a demo application for the Spotify Apps API."
+	},
+	"SupportedLanguages": [
+		"en"
+	],
+	"DefaultTabs": [
+		{
+			"arguments": "player",
+			"title": {
+				"en": "Player"
+			}
+		}, 
+		{
+			"arguments": "social",
+			"title": {
+				"en": "Social"
+			}
+		},
+		{
+			"arguments": "search",
+			"title": {
+				"en": "Search"
+			}
+        }
+	],
+	"RequiredPermissions": [
+		"https://*",
+		"http://*"
+	],
+	"RequiredInterface": "1",
+	"VendorIdentifier": "com.kitchensink"
+}
